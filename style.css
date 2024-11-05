@@ -43,3 +43,11 @@ main {
 #feature-3 {
   background-color: #C8C6FA;
 }
+
+/* Tablet */
+@media screen and (min-width: 640px) {
+#sign-up, #feature-1, #feature-2, #feature-3 {
+  width: 50%;
+  height: 50vw;
+}
+}
